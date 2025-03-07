@@ -7,5 +7,13 @@ const SecondComponent = () => {
         </div>
     );
 }
+const ThirdComponent = () => {
 
-export default SecondComponent;
+    return (
+        <div>
+            third component
+        </div>
+    );
+}
+
+export { SecondComponent, ThirdComponent };
